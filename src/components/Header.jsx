@@ -1,11 +1,13 @@
 function Header() {
     
-    
     return (
         
-        <header>
-            <h1 className="text-4xl font-bold uppercase text-indigo-600 mt-2">Desde Header</h1>
-        </header>
+        <>
+            <h1 className="font-black text-5xl md:w-2/3 text-center mx-auto">
+                Seguimiento pacientes  {""}
+                <span className=" text-indigo-600">Veterinaria</span>
+            </h1>
+        </>
     )
 }
 
